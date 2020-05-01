@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0C5278FE2D546BD87B3EA7 /* Pods_Muter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EAC437AEB12F222C230025 /* Pods_Muter.framework */; };
+		B56B8E922456C6A700406C1B /* NSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B8E912456C6A700406C1B /* NSImageExtension.swift */; };
+		B5CB4432245AF34A000253AF /* AudioApiSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CB4431245AF34A000253AF /* AudioApiSwift.swift */; };
+		B5CB4436245AFB00000253AF /* AudioAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CB4435245AFB00000253AF /* AudioAPI.m */; };
+		C05B024F23C883BD00C692AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B024E23C883BD00C692AF /* AppDelegate.swift */; };
+		C05B025323C883C000C692AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05B025223C883C000C692AF /* Assets.xcassets */; };
+		C05B025623C883C000C692AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05B025423C883C000C692AF /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42EAC437AEB12F222C230025 /* Pods_Muter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56B8E912456C6A700406C1B /* NSImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtension.swift; sourceTree = "<group>"; };
+		B5CB4431245AF34A000253AF /* AudioApiSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioApiSwift.swift; sourceTree = "<group>"; };
+		B5CB4434245AFAFF000253AF /* Muter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Muter-Bridging-Header.h"; sourceTree = "<group>"; };
+		B5CB4435245AFB00000253AF /* AudioAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioAPI.m; sourceTree = "<group>"; };
+		B5CB4437245AFB20000253AF /* AudioAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioAPI.h; sourceTree = "<group>"; };
+		C05B024B23C883BD00C692AF /* Muter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05B024E23C883BD00C692AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C05B025223C883C000C692AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C05B025523C883C000C692AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C05B025723C883C000C692AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05B025823C883C000C692AF /* Muter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Muter.entitlements; sourceTree = "<group>"; };
+		E44BF0C6ED84006E12994D9A /* Pods-Muter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muter.release.xcconfig"; path = "Target Support Files/Pods-Muter/Pods-Muter.release.xcconfig"; sourceTree = "<group>"; };
+		F86FE3EC98A84F61E4DE2469 /* Pods-Muter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muter.debug.xcconfig"; path = "Target Support Files/Pods-Muter/Pods-Muter.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C05B024823C883BD00C692AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0C5278FE2D546BD87B3EA7 /* Pods_Muter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92F513C80C7C0C9BA9C7AFA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42EAC437AEB12F222C230025 /* Pods_Muter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A85D219201F78213C4900DCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F86FE3EC98A84F61E4DE2469 /* Pods-Muter.debug.xcconfig */,
+				E44BF0C6ED84006E12994D9A /* Pods-Muter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5CB4433245AFAD0000253AF /* AudioAPI */ = {
+			isa = PBXGroup;
+			children = (
+				B5CB4437245AFB20000253AF /* AudioAPI.h */,
+				B5CB4435245AFB00000253AF /* AudioAPI.m */,
+				B5CB4434245AFAFF000253AF /* Muter-Bridging-Header.h */,
+			);
+			path = AudioAPI;
+			sourceTree = "<group>";
+		};
+		C05B024223C883BD00C692AF = {
+			isa = PBXGroup;
+			children = (
+				C05B024D23C883BD00C692AF /* Muter */,
+				C05B024C23C883BD00C692AF /* Products */,
+				A85D219201F78213C4900DCD /* Pods */,
+				92F513C80C7C0C9BA9C7AFA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C05B024C23C883BD00C692AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C05B024B23C883BD00C692AF /* Muter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C05B024D23C883BD00C692AF /* Muter */ = {
+			isa = PBXGroup;
+			children = (
+				B5CB4433245AFAD0000253AF /* AudioAPI */,
+				C05B024E23C883BD00C692AF /* AppDelegate.swift */,
+				C05B025223C883C000C692AF /* Assets.xcassets */,
+				C05B025423C883C000C692AF /* Main.storyboard */,
+				C05B025723C883C000C692AF /* Info.plist */,
+				C05B025823C883C000C692AF /* Muter.entitlements */,
+				B56B8E912456C6A700406C1B /* NSImageExtension.swift */,
+				B5CB4431245AF34A000253AF /* AudioApiSwift.swift */,
+			);
+			path = Muter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C05B024A23C883BD00C692AF /* Muter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05B025B23C883C000C692AF /* Build configuration list for PBXNativeTarget "Muter" */;
+			buildPhases = (
+				40336A137E8A19D8A7FA3CEE /* [CP] Check Pods Manifest.lock */,
+				C05B024723C883BD00C692AF /* Sources */,
+				C05B024823C883BD00C692AF /* Frameworks */,
+				C05B024923C883BD00C692AF /* Resources */,
+				33BA74CC1EF69AAED2B18102 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Muter;
+			productName = WorldTime;
+			productReference = C05B024B23C883BD00C692AF /* Muter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C05B024323C883BD00C692AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = appic;
+				TargetAttributes = {
+					C05B024A23C883BD00C692AF = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = C05B024623C883BD00C692AF /* Build configuration list for PBXProject "Muter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C05B024223C883BD00C692AF;
+			productRefGroup = C05B024C23C883BD00C692AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C05B024A23C883BD00C692AF /* Muter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C05B024923C883BD00C692AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05B025323C883C000C692AF /* Assets.xcassets in Resources */,
+				C05B025623C883C000C692AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33BA74CC1EF69AAED2B18102 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Muter/Pods-Muter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Muter/Pods-Muter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Muter/Pods-Muter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40336A137E8A19D8A7FA3CEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Muter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C05B024723C883BD00C692AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56B8E922456C6A700406C1B /* NSImageExtension.swift in Sources */,
+				B5CB4436245AFB00000253AF /* AudioAPI.m in Sources */,
+				C05B024F23C883BD00C692AF /* AppDelegate.swift in Sources */,
+				B5CB4432245AF34A000253AF /* AudioApiSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C05B025423C883C000C692AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05B025523C883C000C692AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05B025923C883C000C692AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C05B025A23C883C000C692AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C05B025C23C883C000C692AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F86FE3EC98A84F61E4DE2469 /* Pods-Muter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Muter/Muter.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V3D494R82Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Muter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = appic.duong.muter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Muter/AudioAPI/Muter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C05B025D23C883C000C692AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44BF0C6ED84006E12994D9A /* Pods-Muter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Muter/Muter.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V3D494R82Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Muter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = appic.duong.muter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Muter/AudioAPI/Muter-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05B024623C883BD00C692AF /* Build configuration list for PBXProject "Muter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05B025923C883C000C692AF /* Debug */,
+				C05B025A23C883C000C692AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05B025B23C883C000C692AF /* Build configuration list for PBXNativeTarget "Muter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05B025C23C883C000C692AF /* Debug */,
+				C05B025D23C883C000C692AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C05B024323C883BD00C692AF /* Project object */;
+}
