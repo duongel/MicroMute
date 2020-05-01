@@ -18,6 +18,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var statusItem: NSStatusItem?
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        AudioAPI.shared()?.delegate = self;
         setupHotkey()
         setupIcon()
     }
@@ -42,15 +43,23 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     private func setupIcon() {
-        let imageName = "unmuted"
+        let isMuted = AudioAPI.shared()?.isMuted() ?? false
+        let imageName = isMuted ? "muted" : "unmuted"
         var itemImage = NSImage(named: imageName)
         itemImage?.isTemplate = true
+
+        if isMuted {
+            itemImage = itemImage?.image(with: .red)
+        }
 
         statusItem?.button?.image = itemImage
     }
 
     /// Toggles between mute and unmuted state.
     @objc func toggleMute() {
+        let isMuted = AudioAPI.shared()?.isMuted() ?? false
+
+        AudioAPI.shared()?.setMuted(!isMuted)
     }
 
     @IBAction func menuTogglePressed(_ sender: NSMenuItem) {
@@ -58,3 +67,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 }
 
+extension AppDelegate: AudioAPIDelegate {
+    func volumeChanged() {
+        setupIcon()
+    }
+}
