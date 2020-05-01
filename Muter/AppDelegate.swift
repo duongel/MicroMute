@@ -18,6 +18,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var statusItem: NSStatusItem?
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        setupHotkey()
+        setupIcon()
     }
 
     override func awakeFromNib() {
@@ -30,5 +32,29 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
     }
 
+// MARK: - Setup
+
+    private func setupHotkey() {
+        if let keyCombo = KeyCombo(keyCode: 46, cocoaModifiers: [.command, .option]) {
+            let hotKey = HotKey(identifier: "OptionM", keyCombo: keyCombo, target: self, action: #selector(toggleMute))
+            hotKey.register()
+        }
+    }
+
+    private func setupIcon() {
+        let imageName = "unmuted"
+        var itemImage = NSImage(named: imageName)
+        itemImage?.isTemplate = true
+
+        statusItem?.button?.image = itemImage
+    }
+
+    /// Toggles between mute and unmuted state.
+    @objc func toggleMute() {
+    }
+
+    @IBAction func menuTogglePressed(_ sender: NSMenuItem) {
+        toggleMute()
+    }
 }
 
