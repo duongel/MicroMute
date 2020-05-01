@@ -1,16 +1,20 @@
 PODS:
   - Magnet (2.3.1)
+  - Sparkle (1.23.0)
 
 DEPENDENCIES:
   - Magnet
+  - Sparkle
 
 SPEC REPOS:
   trunk:
     - Magnet
+    - Sparkle
 
 SPEC CHECKSUMS:
   Magnet: f8dac2ffc845ffe68b2dd21c68a801f866f4a098
+  Sparkle: 55b1a87ba69d56913375a281546b7c82dec95bb0
 
-PODFILE CHECKSUM: e7fa729f8958a561ce91c85f16b12ec720ec0d88
+PODFILE CHECKSUM: b68e21191bebcef0f8218980f03f3e11e31e261a
 
 COCOAPODS: 1.9.1

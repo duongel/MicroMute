@@ -6,5 +6,6 @@ target 'Muter' do
   use_frameworks!
 
     pod 'Magnet'
+    pod 'Sparkle'
 
 end
