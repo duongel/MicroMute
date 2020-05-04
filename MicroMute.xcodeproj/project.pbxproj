@@ -20,15 +20,15 @@
 		42EAC437AEB12F222C230025 /* Pods_Muter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56B8E912456C6A700406C1B /* NSImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtension.swift; sourceTree = "<group>"; };
 		B5CB4431245AF34A000253AF /* AudioApiSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioApiSwift.swift; sourceTree = "<group>"; };
-		B5CB4434245AFAFF000253AF /* Muter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Muter-Bridging-Header.h"; sourceTree = "<group>"; };
+		B5CB4434245AFAFF000253AF /* MicroMute-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MicroMute-Bridging-Header.h"; sourceTree = "<group>"; };
 		B5CB4435245AFB00000253AF /* AudioAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioAPI.m; sourceTree = "<group>"; };
 		B5CB4437245AFB20000253AF /* AudioAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioAPI.h; sourceTree = "<group>"; };
-		C05B024B23C883BD00C692AF /* Muter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05B024B23C883BD00C692AF /* MicroMute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroMute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05B024E23C883BD00C692AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C05B025223C883C000C692AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C05B025523C883C000C692AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C05B025723C883C000C692AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C05B025823C883C000C692AF /* Muter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Muter.entitlements; sourceTree = "<group>"; };
+		C05B025823C883C000C692AF /* MicroMute.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MicroMute.entitlements; sourceTree = "<group>"; };
 		E44BF0C6ED84006E12994D9A /* Pods-Muter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muter.release.xcconfig"; path = "Target Support Files/Pods-Muter/Pods-Muter.release.xcconfig"; sourceTree = "<group>"; };
 		F86FE3EC98A84F61E4DE2469 /* Pods-Muter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muter.debug.xcconfig"; path = "Target Support Files/Pods-Muter/Pods-Muter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,7 +67,7 @@
 			children = (
 				B5CB4437245AFB20000253AF /* AudioAPI.h */,
 				B5CB4435245AFB00000253AF /* AudioAPI.m */,
-				B5CB4434245AFAFF000253AF /* Muter-Bridging-Header.h */,
+				B5CB4434245AFAFF000253AF /* MicroMute-Bridging-Header.h */,
 			);
 			path = AudioAPI;
 			sourceTree = "<group>";
@@ -75,7 +75,7 @@
 		C05B024223C883BD00C692AF = {
 			isa = PBXGroup;
 			children = (
-				C05B024D23C883BD00C692AF /* Muter */,
+				C05B024D23C883BD00C692AF /* MicroMute */,
 				C05B024C23C883BD00C692AF /* Products */,
 				A85D219201F78213C4900DCD /* Pods */,
 				92F513C80C7C0C9BA9C7AFA3 /* Frameworks */,
@@ -85,12 +85,12 @@
 		C05B024C23C883BD00C692AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C05B024B23C883BD00C692AF /* Muter.app */,
+				C05B024B23C883BD00C692AF /* MicroMute.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C05B024D23C883BD00C692AF /* Muter */ = {
+		C05B024D23C883BD00C692AF /* MicroMute */ = {
 			isa = PBXGroup;
 			children = (
 				B5CB4433245AFAD0000253AF /* AudioAPI */,
@@ -98,19 +98,19 @@
 				C05B025223C883C000C692AF /* Assets.xcassets */,
 				C05B025423C883C000C692AF /* Main.storyboard */,
 				C05B025723C883C000C692AF /* Info.plist */,
-				C05B025823C883C000C692AF /* Muter.entitlements */,
+				C05B025823C883C000C692AF /* MicroMute.entitlements */,
 				B56B8E912456C6A700406C1B /* NSImageExtension.swift */,
 				B5CB4431245AF34A000253AF /* AudioApiSwift.swift */,
 			);
-			path = Muter;
+			path = MicroMute;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C05B024A23C883BD00C692AF /* Muter */ = {
+		C05B024A23C883BD00C692AF /* MicroMute */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C05B025B23C883C000C692AF /* Build configuration list for PBXNativeTarget "Muter" */;
+			buildConfigurationList = C05B025B23C883C000C692AF /* Build configuration list for PBXNativeTarget "MicroMute" */;
 			buildPhases = (
 				40336A137E8A19D8A7FA3CEE /* [CP] Check Pods Manifest.lock */,
 				C05B024723C883BD00C692AF /* Sources */,
@@ -122,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = Muter;
+			name = MicroMute;
 			productName = WorldTime;
-			productReference = C05B024B23C883BD00C692AF /* Muter.app */;
+			productReference = C05B024B23C883BD00C692AF /* MicroMute.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C05B024623C883BD00C692AF /* Build configuration list for PBXProject "Muter" */;
+			buildConfigurationList = C05B024623C883BD00C692AF /* Build configuration list for PBXProject "MicroMute" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -156,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C05B024A23C883BD00C692AF /* Muter */,
+				C05B024A23C883BD00C692AF /* MicroMute */,
 			);
 		};
 /* End PBXProject section */
@@ -362,21 +362,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Muter/Muter.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MicroMute/MicroMute.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CWZAR6V4F5;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = Muter/Info.plist;
+				INFOPLIST_FILE = MicroMute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = appic.duong.muter;
+				PRODUCT_BUNDLE_IDENTIFIER = appic.duong.micromute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Muter/AudioAPI/Muter-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "MicroMute/AudioAPI/MicroMute-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -388,21 +388,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Muter/Muter.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MicroMute/MicroMute.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CWZAR6V4F5;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = Muter/Info.plist;
+				INFOPLIST_FILE = MicroMute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = appic.duong.muter;
+				PRODUCT_BUNDLE_IDENTIFIER = appic.duong.micromute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Muter/AudioAPI/Muter-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "MicroMute/AudioAPI/MicroMute-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -410,7 +410,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C05B024623C883BD00C692AF /* Build configuration list for PBXProject "Muter" */ = {
+		C05B024623C883BD00C692AF /* Build configuration list for PBXProject "MicroMute" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C05B025923C883C000C692AF /* Debug */,
@@ -419,7 +419,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C05B025B23C883C000C692AF /* Build configuration list for PBXNativeTarget "Muter" */ = {
+		C05B025B23C883C000C692AF /* Build configuration list for PBXNativeTarget "MicroMute" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C05B025C23C883C000C692AF /* Debug */,

@@ -1,16 +1,20 @@
-# Muter
+# MicroMute
 
-Sets a global shortcut (CMD + option + M) to mute or unmute the system microphone on Mac OS X.
+Sets a global shortcut (CMD + option + M) to mute or unmute the system microphone on macOS.
 
-Should work with any Video Chat software like Microsoft Teams, Zoom, Webex etc.
+Should work with any Video Chat software like Microsoft Teams, Skype, FaceTime, Slack, Zoom, Webex etc.
 Heavily inspired by Pixel Point's [Mute Me](https://github.com/pixel-point/mute-me).
 
 
 # Requirements
-Dependency Manager: [Cocoa Pods] (http://cocoapods.org)
+- Dependency Manager: [Cocoa Pods] (http://cocoapods.org)
+- macOS 10.14
+- Swift 5
+- Xcode 11.2.1
+
 
 # Development
-Always use Muter.xcworkspace for this project. Within the project directory:
+Always use MicroMute.xcworkspace for this project. Within the project directory:
 
 - install dependencies with `pod install`
 - update dependencies with `pod update`
