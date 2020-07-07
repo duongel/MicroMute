@@ -1,6 +1,8 @@
 # MicroMute
 
-Sets a global shortcut (CMD + option + M) to mute or unmute the system microphone on macOS.
+Sets a global shortcut (CMD + option + M) to mute or unmute the system microphone on macOS, which works while your app to be muted is out of focus. 
+
+App specific keyboard shortcuts to mute only work while the app is in focus. If you work with multiple displays and want to do something else while in a video call, e. g. take notes in another app, you cannot mute or unmute yourself with the video chat app's keyboard shortcut.
 
 Should work with any Video Chat software like Microsoft Teams, Skype, FaceTime, Slack, Zoom, Webex etc.
 Heavily inspired by Pixel Point's [Mute Me](https://github.com/pixel-point/mute-me).
