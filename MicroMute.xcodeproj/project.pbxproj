@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F0C5278FE2D546BD87B3EA7 /* Pods_Muter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EAC437AEB12F222C230025 /* Pods_Muter.framework */; };
+		47095E6B56B6C6EDB4237CEA /* Pods_MicroMute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6D5A1B83CD438ECD97C7E2 /* Pods_MicroMute.framework */; };
 		B56B8E922456C6A700406C1B /* NSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56B8E912456C6A700406C1B /* NSImageExtension.swift */; };
 		B5CB4432245AF34A000253AF /* AudioApiSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CB4431245AF34A000253AF /* AudioApiSwift.swift */; };
 		B5CB4436245AFB00000253AF /* AudioAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CB4435245AFB00000253AF /* AudioAPI.m */; };
@@ -17,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		42EAC437AEB12F222C230025 /* Pods_Muter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0177B93664332356CF5C41F9 /* Pods-MicroMute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroMute.debug.xcconfig"; path = "Target Support Files/Pods-MicroMute/Pods-MicroMute.debug.xcconfig"; sourceTree = "<group>"; };
+		0F6D5A1B83CD438ECD97C7E2 /* Pods_MicroMute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicroMute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56B8E912456C6A700406C1B /* NSImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtension.swift; sourceTree = "<group>"; };
 		B5CB4431245AF34A000253AF /* AudioApiSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioApiSwift.swift; sourceTree = "<group>"; };
 		B5CB4434245AFAFF000253AF /* MicroMute-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MicroMute-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -29,6 +30,7 @@
 		C05B025523C883C000C692AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C05B025723C883C000C692AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C05B025823C883C000C692AF /* MicroMute.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MicroMute.entitlements; sourceTree = "<group>"; };
+		C40340B6DCE4F66C4F325A56 /* Pods-MicroMute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicroMute.release.xcconfig"; path = "Target Support Files/Pods-MicroMute/Pods-MicroMute.release.xcconfig"; sourceTree = "<group>"; };
 		E44BF0C6ED84006E12994D9A /* Pods-Muter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muter.release.xcconfig"; path = "Target Support Files/Pods-Muter/Pods-Muter.release.xcconfig"; sourceTree = "<group>"; };
 		F86FE3EC98A84F61E4DE2469 /* Pods-Muter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muter.debug.xcconfig"; path = "Target Support Files/Pods-Muter/Pods-Muter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F0C5278FE2D546BD87B3EA7 /* Pods_Muter.framework in Frameworks */,
+				47095E6B56B6C6EDB4237CEA /* Pods_MicroMute.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +50,7 @@
 		92F513C80C7C0C9BA9C7AFA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				42EAC437AEB12F222C230025 /* Pods_Muter.framework */,
+				0F6D5A1B83CD438ECD97C7E2 /* Pods_MicroMute.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -58,6 +60,8 @@
 			children = (
 				F86FE3EC98A84F61E4DE2469 /* Pods-Muter.debug.xcconfig */,
 				E44BF0C6ED84006E12994D9A /* Pods-Muter.release.xcconfig */,
+				0177B93664332356CF5C41F9 /* Pods-MicroMute.debug.xcconfig */,
+				C40340B6DCE4F66C4F325A56 /* Pods-MicroMute.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -180,15 +184,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Muter/Pods-Muter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MicroMute/Pods-MicroMute-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Muter/Pods-Muter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MicroMute/Pods-MicroMute-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Muter/Pods-Muter-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MicroMute/Pods-MicroMute-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		40336A137E8A19D8A7FA3CEE /* [CP] Check Pods Manifest.lock */ = {
@@ -206,7 +210,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Muter-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MicroMute-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -358,7 +362,7 @@
 		};
 		C05B025C23C883C000C692AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F86FE3EC98A84F61E4DE2469 /* Pods-Muter.debug.xcconfig */;
+			baseConfigurationReference = 0177B93664332356CF5C41F9 /* Pods-MicroMute.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -384,7 +388,7 @@
 		};
 		C05B025D23C883C000C692AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E44BF0C6ED84006E12994D9A /* Pods-Muter.release.xcconfig */;
+			baseConfigurationReference = C40340B6DCE4F66C4F325A56 /* Pods-MicroMute.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
