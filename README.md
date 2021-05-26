@@ -36,8 +36,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 # Support
 If this project makes your work from home easier, a donation of any amount is appreciated :-)
 
-[
-  ![Donate with PayPal]
-  (https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)
-]
-(https://www.paypal.com/donate?hosted_button_id=CKAK6UZFJ5ULU)
+<a href="https://www.paypal.com/donate?hosted_button_id=CKAK6UZFJ5ULU">
+  <img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" alt="Donate with PayPal" />
+</a>
