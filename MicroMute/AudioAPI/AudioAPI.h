@@ -11,6 +11,7 @@
 @protocol AudioAPIDelegate <NSObject>
 
 @required
+/// Gets called whenever the system volume changes.
 - (void)volumeChanged;
 
 @end

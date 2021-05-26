@@ -34,14 +34,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
 // MARK: - Setup
-
+    
+    /// Sets the following keys as hotkey to toggle muted/unmuted state: CMD+option+m
     private func setupHotkey() {
         if let keyCombo = KeyCombo(QWERTYKeyCode: 46, cocoaModifiers: [.command, .option]) {
             let hotKey = HotKey(identifier: "OptionM", keyCombo: keyCombo, target: self, action: #selector(toggleMute))
             hotKey.register()
         }
     }
-
+    
+    /// Sets the statusbar icon based on the current state. If muted, a red icon with crossed out microphone will be set. Otherwise, the default black microphone icon.
     private func setupIcon() {
         let isMuted = AudioAPI.shared()?.isMuted() ?? false
         let imageName = isMuted ? "muted" : "unmuted"
@@ -55,7 +57,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem?.button?.image = itemImage
     }
 
-    /// Toggles between mute and unmuted state.
+    /// Toggles between muted and unmuted state.
     @objc func toggleMute() {
         let isMuted = AudioAPI.shared()?.isMuted() ?? false
 
