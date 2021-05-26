@@ -36,7 +36,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 // MARK: - Setup
 
     private func setupHotkey() {
-        if let keyCombo = KeyCombo(keyCode: 46, cocoaModifiers: [.command, .option]) {
+        if let keyCombo = KeyCombo(QWERTYKeyCode: 46, cocoaModifiers: [.command, .option]) {
             let hotKey = HotKey(identifier: "OptionM", keyCombo: keyCombo, target: self, action: #selector(toggleMute))
             hotKey.register()
         }
