@@ -8,7 +8,7 @@ Should work with any Video Chat software like Microsoft Teams, Skype, FaceTime, 
 Heavily inspired by Pixel Point's [Mute Me](https://github.com/pixel-point/mute-me).
 
 
-# Requirements
+# Minimum Requirements
 - Dependency Manager: [Cocoa Pods] (http://cocoapods.org)
 - macOS 10.14
 - Swift 5
