@@ -1,3 +1,8 @@
+# Updated for macOS 14.0 Sonoma
+
+Apple fixed the microphone api bug. MicroMute has been updated to fully work on macOS 14.0 Sonoma.
+
+
 # MicroMute
 
 Sets a global shortcut (CMD + option + M) to mute or unmute the system microphone on macOS, which works while your app to be muted is out of focus. 
