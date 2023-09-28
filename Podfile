@@ -6,6 +6,5 @@ target 'MicroMute' do
   use_frameworks!
 
     pod 'Magnet'
-    #pod 'Sparkle'
 
 end
